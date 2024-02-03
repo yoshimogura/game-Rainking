@@ -1,0 +1,98 @@
+main {
+  background-color: #1995ad;
+}
+h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+h2 {
+  text-align: left;
+  font-size: 30px;
+}
+.explanation {
+  background-color: #bcbabe;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-bottom: 15px;
+}
+.explanation p {
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  background-color: #69be9a;
+}
+.explanation2 {
+  background-color: #bcbabe;
+  margin-top: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-bottom: 15px;
+}
+.explanation2 li {
+  padding-right: 20px;
+}
+.explanation2list {
+  margin: 0 auto;
+  padding: 1em 0;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+.exportparts {
+  background-color: #f1f1f2;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 3px solid#000000;
+}
+.rank {
+  padding-left: 10px;
+  font-size: 50px;
+  color: #8c4841;
+}
+.overview {
+  display: flex;
+  flex-direction: row;
+}
+
+.set {
+  height: 60%;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 25px;
+}
+.overview img {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.price {
+  font-size: 35px;
+  padding-left: 100px;
+  padding-top: 80px;
+}
+.setumei {
+  display: flex;
+}
+.setumei img {
+  width: 20%;
+}
+.company {
+  float: right;
+}
+@media (max-width: 1024px) {
+  .explanation2list {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .overview {
+    flex-direction: column;
+  }
+  .setumei {
+    flex-direction: column;
+  }
+}
