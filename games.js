@@ -11,8 +11,18 @@ const games = [
     playMember: "1",
   },
   {
-    name: "スーパーマリオブラザーズワンダー",
+    name: "星のカービィディスカバリー",
     rank: "2",
+    description:
+      "このゲームは星のカービィシリーズ初となる3Dゲームです。3Dになったことにより2Dにはなかったゲーム性も追加されました。このゲームの最大の魅力はステージ上にある特定のものを吸い込むことでできる「ほおばりへんけい」です。例えば車をほおばったら車を運転出来たり電球をほおばったら周りをてらすことができます。またやり込み要素もステージ上にいるワドルディを見つけたり毎ステージにあるタスクをこなすというものがあったりととても豊富です。",
+    price: "6500",
+    companyName: "ハル研究所、任天堂",
+    imase:
+      "https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw925f8b90/products/D70010000046404/heroBanner/70d985e5ca0536e23ed2eba589446234ea607a9f2f98d78db2c931db5a7a3a1f.jpg?sw=1368&strip=false",
+  },
+  {
+    name: "スーパーマリオブラザーズワンダー",
+    rank: "3",
     description:
       "このゲームは約11年ぶりの2Dマリオの新作です。今作ではファイヤーマリオやアイスマリオなどに加えてアワマリオやゾウマリオ、ドリルマリオの3種類の新アイテムが登場し遊びの幅が広がっています。また初心者に優しいモードもあって誰でも楽しめるゲームとなっています。",
     price: "6578",
@@ -21,16 +31,7 @@ const games = [
       "https://m.media-amazon.com/images/I/61FkASsd1zL._AC_UF894,1000_QL80_.jpg",
     playMember: "1~4",
   },
-  {
-    name: "星のカービィディスカバリー",
-    rank: "3",
-    description:
-      "このゲームは星のカービィシリーズ初となる3Dゲームです。3Dになったことにより2Dにはなかったゲーム性も追加されました。このゲームの最大の魅力はステージ上にある特定のものを吸い込むことでできる「ほおばりへんけい」です。例えば車をほおばったら車を運転出来たり電球をほおばったら周りをてらすことができます。またやり込み要素もステージ上にいるワドルディを見つけたり毎ステージにあるタスクをこなすというものがあったりととても豊富です。",
-    price: "6500",
-    companyName: "ハル研究所、任天堂",
-    imase:
-      "https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw925f8b90/products/D70010000046404/heroBanner/70d985e5ca0536e23ed2eba589446234ea607a9f2f98d78db2c931db5a7a3a1f.jpg?sw=1368&strip=false",
-  },
+
   {
     name: "あつまれどうぶつの森",
     rank: "4",
