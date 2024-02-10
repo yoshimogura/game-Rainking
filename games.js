@@ -21,8 +21,18 @@ const games = [
       "https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw925f8b90/products/D70010000046404/heroBanner/70d985e5ca0536e23ed2eba589446234ea607a9f2f98d78db2c931db5a7a3a1f.jpg?sw=1368&strip=false",
   },
   {
-    name: "スーパーマリオブラザーズワンダー",
+    name: "あつまれどうぶつの森",
     rank: "3",
+    description: "",
+    price: "6578",
+    companyName: "任天堂",
+    imase:
+      "https://m.media-amazon.com/images/I/71lpG-B9oDL._AC_UF894,1000_QL80_.jpg",
+    playMember: "1",
+  },
+  {
+    name: "スーパーマリオブラザーズワンダー",
+    rank: "4",
     description:
       "このゲームは約11年ぶりの2Dマリオの新作です。今作ではファイヤーマリオやアイスマリオなどに加えてアワマリオやゾウマリオ、ドリルマリオの3種類の新アイテムが登場し遊びの幅が広がっています。また初心者に優しいモードもあって誰でも楽しめるゲームとなっています。",
     price: "6578",
@@ -33,18 +43,7 @@ const games = [
   },
 
   {
-    name: "あつまれどうぶつの森",
-    rank: "4",
-    description: "",
-    price: "6578",
-    companyName: "任天堂",
-    imase:
-      "https://m.media-amazon.com/images/I/71lpG-B9oDL._AC_UF894,1000_QL80_.jpg",
-    playMember: "1",
-  },
-
-  {
-    name: "マリオオデッセイ",
+    name: "スーパーマリオオデッセイ",
     rank: "5",
     description:
       "このゲームはマリオの3Dアクションゲームでいたるところにあるパワームーンを集めながらクッパにさらわれたピーチを助けにいくといくゲームです。このゲームの特徴はそこらへんにいるキャラクターに帽子を投げるとキャプチャーといってそのキャラクターを操作できるようになります。その時キャプチャーしたキャラクターの能力も使うことができ例えばカエルにキャプチャーしたら高く飛び跳ねたり泳げるようになったり、電線にキャプチャーしたら電線を移動できます。このゲームには初心者に優しいお助けモードがあり誰でも気軽に楽しむことができます。",
@@ -99,46 +98,6 @@ const games = [
   {
     Name: "",
     rank: "10",
-    description: "",
-    price: "",
-    companyName: "",
-    imase: "",
-  },
-  {
-    Name: "",
-    rank: "11",
-    description: "",
-    price: "",
-    companyName: "",
-    imase: "",
-  },
-  {
-    Name: "",
-    rank: "12",
-    description: "",
-    price: "",
-    companyName: "",
-    imase: "",
-  },
-  {
-    Name: "",
-    rank: "13",
-    description: "",
-    price: "",
-    companyName: "",
-    imase: "",
-  },
-  {
-    Name: "",
-    rank: "14",
-    description: "",
-    price: "",
-    companyName: "",
-    imase: "",
-  },
-  {
-    Name: "",
-    rank: "15",
     description: "",
     price: "",
     companyName: "",
