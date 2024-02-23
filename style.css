@@ -107,3 +107,23 @@ h2 {
     flex-direction: column;
   }
 }
+/* .chartTables { */
+/* font-size: 25px; */
+/* float: left; */
+/* } */
+/* .chartTable1 {
+  font-size: 25px;
+}
+.chartTable2 {
+  font-size: 25px;
+} */
+.chartLists {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding-left: 100px;
+}
+.chartLists li {
+  margin-left: 20px;
+  list-style: none;
+}
