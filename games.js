@@ -110,24 +110,147 @@ const games = [
   {
     name: "ポケットモンスターソード",
     description: "このゲームは主人公が",
-    price: "5209",
+    price: "6578",
     companyName: "任天堂、ハル研究所",
     imase:
       "https://m.media-amazon.com/images/I/61TWx6p47ML._AC_UF1000,1000_QL80_.jpg",
   },
   {
-    name: "",
+    name: "スプラトゥーン２",
     description: "",
-    price: "",
-    companyName: "",
-    imase: "",
+    price: "6578",
+    companyName: "任天堂",
+    imase: "https://m.media-amazon.com/images/I/71yVtBkLYtL._AC_SY879_.jpg",
   },
   {
-    name: "ポケットモンスターソード",
-    description: "このゲームは主人公が",
-    price: "5209",
-    companyName: "任天堂、ハル研究所",
+    name: "ポケモン不思議のダンジョン救助隊DX",
+    description: "",
+    price: "6578",
+    companyName: "株式会社ポケモン／株式会社スパイク・チュンソフト",
+    imase: "https://m.media-amazon.com/images/I/71nLktTp4SL._AC_SY879_.jpg",
+  },
+  {
+    name: "スーパーマリオRPGリメイク",
+    description: "",
+    price: "6578",
+    companyName: "任天堂",
+    imase: "https://m.media-amazon.com/images/I/61f5Pn8zU3L.jpg",
+  },
+  {
+    name: "スーパーマリオ 3Dコレクション",
+    description: "",
+    price: "6480",
+    companyName: "任天堂",
     imase:
-      "https://m.media-amazon.com/images/I/81ozmsxQUTL._AC_UF1000,1000_QL80_.jpg",
+      "https://m.media-amazon.com/images/I/813hPibYGbL._AC_UF894,1000_QL80_.jpg",
+  },
+  {
+    name: "スーパーマリオブラザーズUデラックス",
+    description: "",
+    price: "6578",
+    companyName: "任天堂",
+    imase:
+      "https://m.media-amazon.com/images/I/81ulZIEBiIL._AC_UF894,1000_QL80_.jpg",
+  },
+  {
+    name: "マリオテニス エース",
+    description: "",
+    price: "6578",
+    companyName: "キャメロット",
+    imase:
+      "https://m.media-amazon.com/images/I/81odbkBkJvL._AC_UF894,1000_QL80_.jpg",
+  },
+  {
+    name: "人生ゲーム for Nintendo Switch",
+    description: "",
+    price: "6600",
+    companyName: "タカラトミー",
+    imase: "https://www.toysrus.co.jp/i/7/7/1/771279000AML.jpg",
+  },
+  {
+    name: "MINECRAFT",
+    description: "",
+    price: "3960    ",
+    companyName: "Mojang",
+    imase:
+      "https://m.media-amazon.com/images/I/71vtquB4LXL._AC_UF894,1000_QL80_.jpg",
+  },
+  {
+    name: "ふたりで！にゃんこ大戦争",
+    description: "",
+    price: "999",
+    companyName: "ポノス",
+    imase: "https://m.media-amazon.com/images/I/91B4c0ugUdL.jpg",
+  },
+  {
+    name: "ぷよぷよテトリスS",
+    description: "",
+    price: "3839",
+    companyName: "SEGA",
+    imase:
+      "https://m.media-amazon.com/images/I/619RQ9pJ6eL._AC_UF894,1000_QL80_.jpg",
+  },
+  {
+    name: "スーパーボンバーマン R",
+    description: "",
+    price: "3036",
+    companyName: "コナミ",
+    imase:
+      "https://m.media-amazon.com/images/I/91Lmv1fEsuL._AC_UF894,1000_QL80_.jpg",
+  },
+  {
+    name: "大乱闘スマッシュブラザーズＳＰＥＣＩＡＬ",
+    description: "",
+    price: "7920",
+    companyName: "任天堂、バンダイナムコ",
+    imase:
+      "https://m.media-amazon.com/images/I/71utlQnFxOL._AC_UF894,1000_QL80_.jpg",
+  },
+  {
+    name: "UNDERTALE",
+    description: "",
+    price: "1620",
+    companyName: "Toby Fox",
+    imase: "https://m.media-amazon.com/images/I/61Rbg4J7UJL.jpg",
+  },
+  {
+    name: "Nintendo Switch Sports",
+    description: "",
+    price: "4300",
+    companyName: "任天堂",
+    imase:
+      "https://m.media-amazon.com/images/I/51TYlp-VMpL._AC_UF894,1000_QL80_.jpg",
+  },
+  {
+    name: "ナビつき！ つくってわかる はじめてゲームプログラミング",
+    description: "",
+    price: "3480",
+    companyName: "任天堂",
+    imase:
+      "https://m.media-amazon.com/images/I/51cuXr7EFoS._AC_UF1000,1000_QL80_.jpg",
+  },
+  {
+    name: "スナックワールド トレジャラーズ ゴールド",
+    description: "",
+    price: "6578",
+    companyName: "レベルファイブ",
+    imase:
+      "https://www.famitsu.com/img/catalog/item/0000/0000/0010/7753/large/B079Q33DVM.jpg",
+  },
+  {
+    name: "ファミリーコンピュータ Nintendo Switch Online",
+    description: "",
+    price: "0",
+    companyName: "任天堂",
+    imase:
+      "https://www.nintendo.co.jp/hardware/switch/onlineservice/fc/img/img-icon_fc.png",
+  },
+  {
+    name: "スーパーファミコン Nintendo Switch Online",
+    description: "",
+    price: "0",
+    companyName: "任天堂",
+    imase:
+      "https://www.nintendo.co.jp/hardware/switch/onlineservice/fc/img/img-icon_sfc.png",
   },
 ];
