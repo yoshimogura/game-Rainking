@@ -7,11 +7,20 @@ window.onload = () => {
   });
   const up6_10game = games.filter((game) => game.rank <= 10 && game.rank >= 6);
   up6_10game.forEach((game) => {
-    console.log(game);
+    // console.log(game);
     addChart(game, 2);
   });
+  addAllGames();
 };
 
+//プレイしたことあるゲーム一覧のプログラム」エリアにすべてゲーム名を追加する
+const addAllGames = () => {
+  const target = $("#explanation2list");
+  games.forEach((game) => {
+    const li = $("<li>", { text: game.name });
+    target.append(li);
+  });
+};
 const addChart = (game, no) => {
   // $("#xxx").text(game.name); // aaa
   console.log(no);
@@ -27,4 +36,9 @@ const addChart = (game, no) => {
   }
 
   // $("#station-info-title").text(station.name);
+
+  // const addallgames = game.name;
+  // addallgames.forEach();
+
+  // const p = $("<p>", { text: game.name });
 };

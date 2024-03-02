@@ -23,7 +23,7 @@ h2 {
   padding-left: 15px;
   padding-right: 15px;
   font-size: 20px;
-  background-color: #69be9a;
+  /* background-color: #69be9a; */
 }
 .explanation2 {
   background-color: #bcbabe;
@@ -35,12 +35,34 @@ h2 {
 .explanation2 li {
   padding-right: 20px;
 }
-.explanation2list {
+#explanation2list {
   margin: 0 auto;
   padding: 1em 0;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding-left: 20px;
+}
+#explanation2list li {
+  width: 25%;
+}
+@media (max-width: 840px) {
+  #explanation2list li {
+    width: 50%;
+  }
+}
+@media (max-width: 640px) {
+  #explanation2list li {
+    width: 33%;
+  }
+}
+@media (max-width: 500px) {
+  #explanation2list li {
+    width: 100%;
+  }
+  #explanation2list {
+    display: block;
+  }
 }
 .exportparts {
   background-color: #f1f1f2;
