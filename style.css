@@ -46,17 +46,18 @@ h2 {
 #explanation2list li {
   width: 25%;
 }
-@media (max-width: 840px) {
-  #explanation2list li {
-    width: 50%;
-  }
-}
-@media (max-width: 640px) {
+@media (max-width: 940px) {
   #explanation2list li {
     width: 33%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 690px) {
+  #explanation2list li {
+    width: 50%;
+  }
+}
+
+@media (max-width: 540px) {
   #explanation2list li {
     width: 100%;
   }
@@ -148,4 +149,12 @@ h2 {
 .chartLists li {
   margin-left: 20px;
   list-style: none;
+}
+@media (max-width: 690px) {
+  .chartLists {
+    display: block;
+  }
+  .chartLists li {
+    margin-left: 0px;
+  }
 }
