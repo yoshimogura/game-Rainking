@@ -12,9 +12,9 @@ window.onload = () => {
   });
   addAllGames();
 
-  updateMaingame(games[0]);
+  updateMainGame(games[0]);
 };
-const updateMaingame = () => {
+const updateMainGame = (game) => {
   const target = $("#exportrank");
   const rank = $("<p>", { text: game.rank });
 
