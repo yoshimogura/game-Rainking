@@ -11,6 +11,15 @@ window.onload = () => {
     addChart(game, 2);
   });
   addAllGames();
+
+  updateMaingame(games[0]);
+};
+const updateMaingame = () => {
+  const target = $("#exportrank");
+  const rank = $("<p>", { text: game.rank });
+
+  target.append = $(rank);
+  console.log(rank);
 };
 
 //プレイしたことあるゲーム一覧のプログラム」エリアにすべてゲーム名を追加する
@@ -21,21 +30,18 @@ const addAllGames = () => {
     target.append(li);
   });
 };
+
 const addChart = (game, no) => {
-  // $("#xxx").text(game.name); // aaa
   console.log(no);
 
   if (no == 1) {
     const parent = $("#chartTable1");
     const ranks = $("<li>", { text: game.rank + "位：" + game.name });
-    // const li = $("<li>", { text: game.name });
     parent.append(ranks);
     console.log(ranks.show());
-    // parent.append(li);
   } else {
     const parent = $("#chartTable2");
     const ranks = $("<li>", { text: game.rank + "位：" + game.name });
-    // const li = $("<li>", { text: game.name });
     parent.append(ranks);
     // parent.append(li);
   }
