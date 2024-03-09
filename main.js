@@ -27,12 +27,17 @@ const addChart = (game, no) => {
 
   if (no == 1) {
     const parent = $("#chartTable1");
-    const li = $("<li>", { text: game.name });
-    parent.append(li);
+    const ranks = $("<li>", { text: game.rank + "位：" + game.name });
+    // const li = $("<li>", { text: game.name });
+    parent.append(ranks);
+    console.log(ranks.show());
+    // parent.append(li);
   } else {
     const parent = $("#chartTable2");
-    const li = $("<li>", { text: game.name });
-    parent.append(li);
+    const ranks = $("<li>", { text: game.rank + "位：" + game.name });
+    // const li = $("<li>", { text: game.name });
+    parent.append(ranks);
+    // parent.append(li);
   }
 
   // $("#station-info-title").text(station.name);

@@ -11,10 +11,11 @@ h1 {
 h2 {
   text-align: left;
   font-size: 30px;
+  margin-left: 3px;
 }
 .explanation {
   background-color: #bcbabe;
-  margin-left: 2px;
+  margin-left: 3px;
   margin-right: 2px;
   padding-bottom: 15px;
 }
@@ -22,13 +23,14 @@ h2 {
   padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
+
   font-size: 20px;
   /* background-color: #69be9a; */
 }
 .explanation2 {
   background-color: #bcbabe;
   margin-top: 15px;
-  margin-left: 2px;
+  margin-left: 3px;
   margin-right: 2px;
   padding-bottom: 15px;
 }
@@ -106,6 +108,7 @@ h2 {
 .company {
   float: right;
 }
+
 .simplifieChart {
   background-color: #d9d9d9;
   margin-top: 10px;
