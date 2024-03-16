@@ -75,9 +75,10 @@ h2 {
 }
 #rank {
   padding-left: 10px;
-  font-size: 50px;
-  color: #8c4841;
+  font-size: 25px;
+  /* color: #8c4841; */
 }
+
 .overview {
   display: flex;
   flex-direction: row;

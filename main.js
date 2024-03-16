@@ -17,10 +17,12 @@ window.onload = () => {
 };
 const updateMainGame = (game) => {
   const target = $("#exportrank");
+  $("#rank").text(`${game.rank}位`);
+
   const rank = $("<p>", { text: game.rank });
   target.append = $(rank);
   console.log(rank);
-  // if (game.rank <= 3) {
+  // if ((game.rank = 3)) {
   //   if ((game.rank = 3)) {
   //     game.style.color = "#8c4841";
   //   }
@@ -30,12 +32,11 @@ const updateMainGame = (game) => {
   //   if ((game.rank = 1)) {
   //     game.style.color = "#e6b422";
   //   }
-  // } else game.style.color = "#000000";
+  // } else game.style.color = "#e6b422";
 };
 const updatedescription = (game) => {
-  const target = $("#overview");
-  const description = $("<p>", { text: game.description });
-  target.append = $(description);
+  const target = $("#setumei");
+  $("#description").text(`${game.description}`);
 };
 
 //プレイしたことあるゲーム一覧のプログラム」エリアにすべてゲーム名を追加する
