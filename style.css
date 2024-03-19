@@ -73,17 +73,24 @@ h2 {
   margin-right: 2px;
   border: 3px solid#000000;
 }
+
 #rank {
   padding-left: 10px;
-  font-size: 25px;
+  font-size: 35px;
   /* color: #8c4841; */
+}
+#description {
+  font-size: 25px;
+  width: 75%;
 }
 
 .overview {
   display: flex;
   flex-direction: row;
 }
-
+.upperPart {
+  display: flex;
+}
 .set {
   height: 60%;
   padding-top: 30px;
@@ -95,21 +102,32 @@ h2 {
   padding-right: 30px;
   padding-left: 30px;
 }
-.price {
+#price {
   font-size: 35px;
   padding-left: 100px;
   padding-top: 80px;
 }
 .setumei {
-  display: flex;
+  /* display: flex; */
 }
 .setumei img {
   width: 20%;
+  height: 70%;
+  padding-left: 100px;
 }
-.company {
-  float: right;
+/* #aaa {
+  float: ;
+} */
+#company {
+  /* float: right; */
+  padding-left: 100px;
+  padding-top: 80px;
+  font-size: 30px;
+  /* padding-right: 30px; */
 }
-
+.underPart {
+  display: flex;
+}
 .simplifieChart {
   background-color: #d9d9d9;
   margin-top: 10px;

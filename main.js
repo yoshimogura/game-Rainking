@@ -13,30 +13,24 @@ window.onload = () => {
   addAllGames();
 
   updateMainGame(games[0]);
-  updatedescription(games[0]);
+  // updatedescription(games[0]);
 };
 const updateMainGame = (game) => {
   const target = $("#exportrank");
   $("#rank").text(`${game.rank}位`);
 
   const rank = $("<p>", { text: game.rank });
-  target.append = $(rank);
+  // target.append = $(rank);
   console.log(rank);
-  // if ((game.rank = 3)) {
-  //   if ((game.rank = 3)) {
-  //     game.style.color = "#8c4841";
-  //   }
-  //   if ((game.rank = 2)) {
-  //     game.style.color = "#808080";
-  //   }
-  //   if ((game.rank = 1)) {
-  //     game.style.color = "#e6b422";
-  //   }
-  // } else game.style.color = "#e6b422";
-};
-const updatedescription = (game) => {
-  const target = $("#setumei");
+  // const target = $("#setumei");
   $("#description").text(`${game.description}`);
+  $("#imase").text(`${game.imase}`);
+  $("#price").text(`${game.price}円(税込み)`);
+  $("#company").text(`${game.companyName}`);
+  const img = $("<img>", { text: game.rank });
+  // target.append = $(rank);
+  // const target = $("#setumei");
+  $("#imase").text(`${game.imase}`);
 };
 
 //プレイしたことあるゲーム一覧のプログラム」エリアにすべてゲーム名を追加する
@@ -53,13 +47,22 @@ const addChart = (game, no) => {
 
   if (no == 1) {
     const parent = $("#chartTable1");
-    const ranks = $("<li>", { text: game.rank + "位：" + game.name });
-    parent.append(ranks);
-    console.log(ranks.show());
+    const gameinfo = $("<li>", { text: `${game.rank}位：${game.name}` });
+    gameinfo.on("click", () => {
+      // console.log(game.rank);
+      updateMainGame(game);
+    });
+
+    parent.append(gameinfo);
+    console.log(gameinfo.show());
   } else {
     const parent = $("#chartTable2");
-    const ranks = $("<li>", { text: game.rank + "位：" + game.name });
-    parent.append(ranks);
+    const gameinfo = $("<li>", { text: `${game.rank}位：${game.name}` });
+    gameinfo.on("click", () => {
+      // console.log(game.rank);
+      updateMainGame(game);
+    });
+    parent.append(gameinfo);
     // parent.append(li);
   }
 

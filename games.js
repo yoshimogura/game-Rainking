@@ -18,12 +18,13 @@ const games = [
     price: "6500",
     companyName: "ハル研究所、任天堂",
     imase:
-      "https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw925f8b90/products/D70010000046404/heroBanner/70d985e5ca0536e23ed2eba589446234ea607a9f2f98d78db2c931db5a7a3a1f.jpg?sw=1368&strip=false",
+      "https://m.media-amazon.com/images/I/61-H-fONluL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "あつまれどうぶつの森",
     rank: 3,
-    description: "",
+    description:
+      "このゲームは無人島で自由に暮らしができるゲームです。町を作ってみてもいいし、釣りや虫取りを楽しんでもいいし、畑を作ったり、旅行にいったりなどととてもやり込み要素満載のゲームです。島には人が引っ越してきたりしていろいろなコミュニケーションも取れます。またオンラインで友達の島などに遊びにいったりすることもできて子供から大人まで性別問わずおすすめできるゲームとなります",
     price: "6578",
     companyName: "任天堂",
     imase:
@@ -117,7 +118,8 @@ const games = [
   },
   {
     name: "スプラトゥーン２",
-    description: "",
+    description:
+      "このゲームはスプラトゥーンシリーズの２作目でインクを塗りあって最終的に塗った面積を競うゲームです。前作に比べてブキやステージ、ギアなどやりサーモンランという襲い掛かってくるシャケを倒して金イクラを集めるミニゲームも追加されています。またストーリーも充実していてとても楽しめるゲームです。",
     price: "6578",
     companyName: "任天堂",
     imase: "https://m.media-amazon.com/images/I/71yVtBkLYtL._AC_SY879_.jpg",

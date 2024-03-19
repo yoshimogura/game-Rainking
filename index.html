@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
   <head>
     <title>gameRanking</title>
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
@@ -6,63 +7,56 @@
   </head>
   <body>
     <main>
-
-  
       <h1>SWITCHで面白かったゲームランキング</h1>
       <div class="explanation">
         <h2>このサイトの紹介</h2>
-        <p>このサイトはyoshimoguraがプレイしたことあるNintendoSwitchのゲームの中で特に面白かったゲームTOP10をランキング形式で紹介するサイトです。順位の決め方などはyoshimoguraの個人の判断です。</p>
+        <p>
+          このサイトはyoshimoguraがプレイしたことあるNintendoSwitchのゲームの中で特に面白かったゲームTOP10をランキング形式で紹介するサイトです。順位の決め方などはyoshimoguraの個人の判断です。
+        </p>
       </div>
       <div class="explanation2">
         <h2>yoshimoguraが今までにプレイしたことのあるゲーム</h2>
-        <ul id="explanation2list">
-          
-          
-        </ul>
+        <ul id="explanation2list"></ul>
       </div>
       <div class="ranking">
-
-      <h2>ランキング</h2>
-      <div class="explanation">
-        <p>ここからが本題のランキングです。ランキングの見方はまず下にあるみたい順位のボタンをクリックします。そしたらそのランキングのゲームとその詳細について教えてくれます。</p>
-
-      </div>
-      <div id="exportrank">
-        <p id="rank"></p>
-        
-        
-      
-          <div class="setumei">
-            
-              <div class="upperpart">  
-                <p id="description"></p>   
-                <img src="https://m.media-amazon.com/images/I/61-H-fONluL.__AC_SX300_SY300_QL70_ML2_.jpg" alt="">
-              </div>
-            <p class="price">6578円（税込み）</p>
-              <img src="https://thumb.ac-illust.com/b6/b649f2980960329bc89ea5ca526b4dd6_t.jpeg" alt="">
-          <div class="company">
-            <p>会社</p>
-            <p>ハル研究所</p>
-            <p>任天堂</p>
-          </div>
-          </div>
-      </div>
-      <div class="simplifieChart">
-        <h2>早見表</h2>
-        <div class="chartLists">
-          <ul>
-            <li id="chartTable1"> </li>
-          </ul>
-          <ul>
-            <li id="chartTable2"> </li>
-          </ul>
-            
-          
+        <h2>ランキング</h2>
+        <div class="explanation">
+          <p>
+            ここからが本題のランキングです。ランキングの見方はまず下にあるみたい順位のボタンをクリックします。そしたらそのランキングのゲームとその詳細について教えてくれます。
+          </p>
         </div>
-
+        <div id="exportrank">
+          <p id="rank"></p>
+          <div class="setumei">
+            <div class="upperPart">
+              <p id="description"></p>
+              <img id="imase" src="" />
+            </div>
+            <div class="underPart">
+              <p id="price"></p>
+              <p id="company"></p>
+              <img
+                id="aaa"
+                src="https://thumb.ac-illust.com/b6/b649f2980960329bc89ea5ca526b4dd6_t.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="simplifieChart">
+          <h2>早見表</h2>
+          <div class="chartLists">
+            <ul id="chartTable1"></ul>
+            <ul id="chartTable2"></ul>
+          </div>
+        </div>
       </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <script src="games.js"></script>
     <script src="main.js"></script>
   </body>
