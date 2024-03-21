@@ -27,10 +27,7 @@ const updateMainGame = (game) => {
   $("#imase").text(`${game.imase}`);
   $("#price").text(`${game.price}円(税込み)`);
   $("#company").text(`${game.companyName}`);
-  const img = $("<img>", { text: game.rank });
-  // target.append = $(rank);
-  // const target = $("#setumei");
-  $("#imase").text(`${game.imase}`);
+  $("#imase").attr("src", game.imase);
 };
 
 //プレイしたことあるゲーム一覧のプログラム」エリアにすべてゲーム名を追加する
