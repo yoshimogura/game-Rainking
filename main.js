@@ -20,8 +20,17 @@ const updateMainGame = (game) => {
   $("#rank").text(`${game.rank}位`);
 
   const rank = $("<p>", { text: game.rank });
+  if (game.rank == 1) {
+    $("#rank").css("color", "#e6b422");
+  } else if (game.rank == 2) {
+    $("#rank").css("color", "#808080");
+  } else if (game.rank == 3) {
+    $("#rank").css("color", "#ac6b25");
+  } else $("#rank").css("color", "#000000");
+
   // target.append = $(rank);
   console.log(rank);
+
   // const target = $("#setumei");
   $("#description").text(`${game.description}`);
   $("#imase").text(`${game.imase}`);
